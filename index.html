@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>素因数分解・素数</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    素因数分解・素数判定ができるサイト
+  </header>
+
+  <main class="main">
+    <div class="container prime-factorization">
+      <div class="title">素因数分解</div>
+      <form name="primeFactorizationForm" class="form">
+        <input name="primeFactorizationText" type="text" class="text">
+        <input name="primeFactorizationButton" type="button" value="素因数分解する" class="button">
+      </form>
+      <div class="result prime-factorization-result"></div>
+    </div>
+    <div class="container prime-number">
+      <div class="title">素数判定</div>
+      <form name="primeNumberForm" class="form">
+        <input name="primeNumberText" type="text" class="text">
+        <input name="primeNumberButton" type="button" value="素数か判定する" class="button">
+      </form>
+      <div class="result prime-number-result"></div>
+    </div>
+  </main>
+</body>
+</html>

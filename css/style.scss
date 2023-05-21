@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+
+  .header {
+    color: navy;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .main {
+    .container {
+      width: 450px;
+      padding: 10px;
+      margin: 15px auto;
+      background-color: rgba(0, 0, 0, 0.1);
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .form {
+        .text {
+          width: 400px;
+          margin-bottom: 10px;
+        }
+
+        .button {
+          cursor: pointer;
+        }
+      }
+
+      .result {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+      }
+
+      .result.error {
+        color: red;
+      }
+    }
+  }
+}
